@@ -8,3 +8,529 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #540b51;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+.navbar {
+  display: flex;
+  margin: 20px;
+}
+
+.navbar img {
+  height: 30px;
+  padding: 5px 5px;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+nav button {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-aside {
+  display: inline-flex;
+}
+
+.sign {
+  flex-direction: row;
+  display: none;
+}
+
+.free {
+  background-color: white;
+  text-transform: uppercase;
+  display: none;
+}
+header {
+  display: flex;
+  background-color: #540b51;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.great {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+header h1 {
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+}
+.great p {
+  font-size: 15px;
+  flex-direction: row;
+  text-align: center;
+}
+.fck-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 125px;
+  text-align: center;
+  margin: 0 auto;
+}
+.email-btn {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #540b51;
+  border: none;
+}
+button.goog {
+  width: 100%;
+  height: 100%;
+  background-color: #4285f4;
+  text-transform: uppercase;
+  display: flex;
+  border: none;
+  border-radius: 3px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.goog img {
+  flex-direction: column;
+  object-fit: scale-down;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 3px 2px;
+}
+.hero {
+  display: flex;
+  background-color: #540b51;
+  width: 100%;
+  margin: 0 auto;
+}
+.hero img {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  object-fit: scale-down;
+}
+
+#companies {
+  background-color: #f3eae2;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#companies p {
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 100px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.logos img {
+  width: 20%;
+  height: 20%;
+  margin: 10px 10px;
+}
+.chats {
+  display: flex;
+  background-color: #f3eae2;
+  flex-direction: column;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.chats img {
+  margin-left: 0;
+  width: 100%;
+}
+.text-connectedness {
+  text-align: left;
+  padding-left: 20px;
+}
+article {
+  margin-bottom: 40px;
+}
+.chats a {
+  text-decoration: none;
+  color: rgb(67, 126, 173);
+  font-size: small;
+}
+.teams-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+.teams-text {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 17px;
+  padding: 0 15px;
+}
+.teams-container h3 {
+  font-size: 30px;
+}
+.teams-btn {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px;
+}
+.meet-btn {
+  background-color: #540b51;
+  color: white;
+  height: 50px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.talk-btn {
+  color: #540b51;
+  background-color: white;
+  border-color: #540b51;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.teams-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-inline-start: 10px;
+}
+.teams-list li span {
+  font-size: 30px;
+  color: #540b51;
+}
+
+.teams-list li p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+#welcome {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  background-color: #540b51;
+  clip-path: ellipse(90% 100% at 50% 0%);
+}
+
+#welcome h3 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#welcome button {
+  align-items: center;
+}
+#welcome .try {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  margin-bottom: 10px;
+  height: 50px;
+  text-transform: uppercase;
+  width: 300px;
+  border-radius: 3px;
+}
+#welcome .talk {
+  height: 50px;
+  text-transform: uppercase;
+  border-color: #540b51;
+  color: #540b51;
+  width: 300px;
+  border-radius: 3px;
+}
+footer .container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+}
+footer img {
+  width: 12%;
+  margin: 20px;
+}
+.footer-list {
+  display: flex;
+  font-size: 10px;
+  width: 90%;
+  line-height: 30px;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer .status li {
+  display: flex;
+  font-size: small;
+  line-height: 30px;
+}
+footer hr {
+  width: 90%;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+footer small {
+  text-align: center;
+  font-size: 10px;
+  margin: 0 10px;
+  display: block;
+  margin: 40px 20px;
+}
+
+@media (min-width: 770px) {
+  nav {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .nav-aside {
+    margin-right: 10px;
+    display: flex;
+  }
+  .free {
+    display: inline-flex;
+    border-radius: 3px;
+  }
+  .sign {
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  nav .lupa {
+    width: 0;
+  }
+
+  .nolupa {
+    display: none;
+  }
+
+  header {
+    flex-direction: row;
+  }
+  header h1 {
+    font-size: 70px;
+    text-align: left;
+  }
+  nav ul li {
+    display: inline;
+  }
+
+  .great {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-items: left;
+    width: 100%;
+    margin: 40px 40px;
+  }
+  .great p {
+    font-size: 20px;
+    text-align: left;
+  }
+  .fck-btn {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    margin-left: 0;
+  }
+  .hero {
+    justify-content: space-around;
+  }
+  .hero img {
+    width: 500px;
+  }
+
+  .logos {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .logos img {
+    width: 7%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chats img {
+    width: 60%;
+    margin-left: 0;
+  }
+  .text-connectedness {
+    margin: 30px;
+    padding: 50px;
+  }
+  .text-connectedness h2 {
+    margin-right: 0;
+    font-size: xx-large;
+  }
+  article {
+    margin-bottom: 20px;
+  }
+  .chats a {
+    font-size: medium;
+  }
+  .chats .reverse {
+    flex-direction: row-reverse;
+  }
+  .chats .reverse img {
+    margin-left: auto;
+    display: block;
+  }
+  .teams-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
+  .teams-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .meet-btn {
+    width: 300px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  .talk-btn {
+    width: 200px;
+  }
+  .teams-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+  }
+  .teams-list li span {
+    font-size: 50px;
+  }
+
+  .teams-list li p {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+  }
+
+  #welcome h3 {
+    font-size: 45px;
+  }
+  footer img {
+    width: 5%;
+    margin: 20px;
+  }
+  .footer-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    font-size: 13px;
+  }
+  footer .status {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  footer .status li {
+    font-size: 12px;
+
+    display: inline;
+  }
+  footer .icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+  }
+  footer .fab {
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+  footer small {
+    font-size: 10px;
+    text-align: left;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: auto;
+  }
+}
